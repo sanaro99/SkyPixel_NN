@@ -1,7 +1,7 @@
 # Finding sky pixels in an image using pre-trained PSPNet segmentation model
 
 The model takes input as an image containing some sky area and marks the sky area in white and other areas in black.
-The [training data](https://mypages.valdosta.edu/rpmihail/skyfinder/images/) consists of hundreds of images taken from a fixed perspective at a location and a mask image denoting the sky pixels in white and other areas of the image in black. The model gives an output image which marks the sky area in white and other areas
+The [training data](https://cs.valdosta.edu/~rpmihail/skyfinder/) consists of hundreds of images taken from a fixed perspective at a location and a mask image denoting the sky pixels in white and other areas of the image in black. The model gives an output image which marks the sky area in white and other areas
 in black. The data is downloaded and stored as:-
 ```bash
 ├── 1093
